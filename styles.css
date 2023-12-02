@@ -1,0 +1,105 @@
+:root {
+  --heading__card: red;
+  --fontsize__card: 2rem;
+
+  --heading__video: red;
+  --fontsize__video: 3rem;
+
+  --heading__info: red;
+  --fontsize__info: 2rem;
+  --heading: 5rem;
+
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+.heading__info {
+  font-size: var(--fontsize__info);
+  color: var(--heading__info);
+  margin: 0;
+}
+
+.heading__info-job {
+  color: white;
+  text-align: center;
+}
+
+.heading__info-time {
+  font-weight: 700;
+  font-style: italic;
+}
+.container {
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: #ee7214;
+  padding: 6px 6px 6px 6px;
+
+  border: 1px solid;
+  border-radius: 2rem;
+  border-color: black;
+
+  position: fixed;
+  z-index: 20;
+
+  right: 1rem;
+  left: 1rem;
+}
+
+.header__logo {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 1rem;
+}
+.header__menu {
+  color: white;
+  background-color: black;
+  border-radius: 2rem;
+
+  padding: 10px 30px 10px 30px;
+}
+.display__grid {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.section__hero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section__hero-second {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: chocolate;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.section__hero-third {
+  height: 100vh;
+  width: 100vw;
+  background-color: aquamarine;
+
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: rebeccapurple;
+  color: white;
+}
